@@ -1,6 +1,5 @@
--------------------------------------------------
-1.2 Beta 1                          NOT RELEASED
--------------------------------------------------
+<h5>1.2 Beta 1                          [2017-05-24]</h5>
+<hr>
 - removed @version (mamba)
 - removed TDMMoney_checkModuleAdmin() checks (mamba)
 - PSR-2 code cosmetics (mamba)
@@ -33,14 +32,11 @@
 - check to see if category isNew() when setting parent category (zyspec)
 - fix render of category select box in XOOPS 2.5.9+ (zyspec)
 - updated reference from "SubCategory" to "Parent Category" (zyspec)
-- changed _MD_TDMMONEY_ERROR_NO_PDF to _AM_TDMMONEY_ERROR_NO_PDF and
-moved to Admin language file (zyspec)
+- changed _MD_TDMMONEY_ERROR_NO_PDF to _AM_TDMMONEY_ERROR_NO_PDF and moved to Admin language file (zyspec)
 - updated Help file (zyspec)
 
--------------------------------------------------
-Version: 1.1
-Date:    2011/01/11
--------------------------------------------------
+<h5>1.1         [2011-01-11]</h5>
+<hr>
 List of bugs:
 
  - Bug with redirection (Mage).
@@ -61,10 +57,10 @@ Installation:
  2 - Upload the new folder  "TDMMoney"   to your server in the "modules" folder.
  3 - Update the module.
 
--------------------------------------------------
-Version: 1.01
-Date:    2010/03/27
--------------------------------------------------
+
+<h5>1.01       [2010-03-27]</h5>
+<hr>
+
 List of bugs:
 
  - Bug in the size of certain fields in the database (Mage).

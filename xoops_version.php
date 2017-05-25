@@ -17,7 +17,7 @@ $moduleDirName = basename(__DIR__);
 
 $modversion['version']          = '1.2';
 $modversion['module_status']    = 'Beta 1';
-$modversion['release_date']     = '2017/02/21';
+$modversion['release_date']     = '2017/05/24';
 $modversion['name']             = _MI_TDMMONEY_NAME;
 $modversion['description']      = _MI_TDMMONEY_DESC;
 $modversion['credits']          = 'G. Mage';
