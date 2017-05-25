@@ -78,7 +78,6 @@ function xoops_module_update_tdmmoney(XoopsModule $module, $previousVersion = nu
     $capsDirName   = strtoupper($moduleDirName);
 
     if ($previousVersion < 120) {
-
         $db  = XoopsDatabaseFactory::getDatabaseConnection();
         $sql = 'ALTER TABLE `' . $db->prefix('tdmmoney_account') . "` CHANGE `account_balance` `account_balance` DECIMAL( 10, 2 ) NOT NULL DEFAULT '0.00' ;";
         $db->query($sql);
@@ -164,6 +163,5 @@ function xoops_module_update_tdmmoney(XoopsModule $module, $previousVersion = nu
         /* @var $gpermHandler XoopsGroupPermHandler  */
         $gpermHandler = xoops_getHandler('groupperm');
         return $gpermHandler->deleteByModule($module->getVar('mid'), 'item_read');
-
     }
 }

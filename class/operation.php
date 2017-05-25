@@ -119,7 +119,8 @@ class TdmMoneyOperation extends XoopsObject
             $catSelect = $mytree->makeSelectElement('operation_category', 'cat_title', '--', $this->getVar('operation_category'), false, 0, '', _AM_TDMMONEY_OPERATION_CATEGORY);
             $form->addElement($catSelect);
         } else {
-            $form->addElement(new XoopsFormLabel(_AM_TDMMONEY_OPERATION_CATEGORY, $mytree->makeSelBox('operation_category', 'cat_title', '--', $this->getVar('operation_category'), false)), true);        }
+            $form->addElement(new XoopsFormLabel(_AM_TDMMONEY_OPERATION_CATEGORY, $mytree->makeSelBox('operation_category', 'cat_title', '--', $this->getVar('operation_category'), false)), true);
+        }
 
 
 

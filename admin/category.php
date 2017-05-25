@@ -195,9 +195,9 @@ switch ($op) {
             }
             echo $obj->getHtmlErrors();
         }
-        $form =& $obj->getForm();
+        $form = $obj->getForm();
         $form->display();
         break;
 }
-//Affichage de la partie basse de l'administration de Xoops
-xoops_cp_footer();
+
+include_once __DIR__ . '/admin_footer.php';

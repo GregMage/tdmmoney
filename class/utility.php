@@ -21,11 +21,21 @@ class TdmmoneyUtility
         list($a, $b, $c) = explode('.', $xv[0]);
         $xv = $a*10000 + $b*100 + $c;
         $mv = $x*10000 + $y*100 + $z;
-        if ($signal === '>') return $xv > $mv;
-        if ($signal === '>=') return $xv >= $mv;
-        if ($signal === '<') return $xv < $mv;
-        if ($signal === '<=') return $xv <= $mv;
-        if ($signal === '==') return $xv == $mv;
+        if ($signal === '>') {
+            return $xv > $mv;
+        }
+        if ($signal === '>=') {
+            return $xv >= $mv;
+        }
+        if ($signal === '<') {
+            return $xv < $mv;
+        }
+        if ($signal === '<=') {
+            return $xv <= $mv;
+        }
+        if ($signal === '==') {
+            return $xv == $mv;
+        }
 
         return false;
     }
@@ -38,7 +48,7 @@ class TdmmoneyUtility
      */
     public static function createFolder($folder)
     {
-//        try {
+        //        try {
 //            if (!mkdir($folder) && !is_dir($folder)) {
 //                throw new \RuntimeException(sprintf('Unable to create the %s directory', $folder));
 //            } else {

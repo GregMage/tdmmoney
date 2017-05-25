@@ -77,5 +77,4 @@ echo $permissionsForm->render();
 echo "<br><br><br><br>\n";
 unset($permissionsForm);
 
-//Affichage de la partie basse de l'administration de Xoops
-xoops_cp_footer();
+include_once __DIR__ . '/admin_footer.php';
